@@ -13,7 +13,7 @@
 12. Open ~/.bash_profile (if it is not present-it is necessary to create) and specify the PATH `export PATH="/usr/local/bin:$PATH"`. 
 Then you should run: `appium-doctor`. Depending on the presence of errors and the location of installed packages, you should also specify the following locales:
 
-  `export JAVA_HOME=[путь до java_home]` (for example: '/usr/bin/java' or like $(/usr/libexec/java_home));
+  `export JAVA_HOME=[path to java_home]` (for example: '/usr/bin/java' or like $(/usr/libexec/java_home));
   <br>
   `export PATH=$JAVA_HOME/bin:$PATH`;
   <br>
